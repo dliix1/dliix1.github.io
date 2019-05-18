@@ -43,11 +43,6 @@ body {
 	color: #000000;
 	background: #96e0e9;
 	display: inline-block;
-	-moz-transition: 200ms ease-in;
-	-webkit-transition: background-color 200ms;
-	-ms-transition: background-color 200ms;
-	-o-transition: background-color 200ms; 
-	transition: background-color 200ms;
 }
 .nav_bar ul li a#onlink {
 	background: #ffffff;
