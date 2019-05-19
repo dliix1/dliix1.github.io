@@ -75,7 +75,8 @@ body {
 	font-family: 'Actor', sans-serif;
 	color: white;
 	padding-top: 50px;
-	padding-left: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .projectsv1 {
 	font-size: 30px;
@@ -83,7 +84,8 @@ body {
 	font-family: 'Actor', sans-serif;
 	color: white;
 	padding-top: 50px;
-	padding-left: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .projectsv2 {
 	font-size: 30px;
@@ -91,7 +93,8 @@ body {
 	font-family: 'Actor', sans-serif;
 	color: white;
 	padding-top: 50px;
-	padding-left: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .contact {
 	font-size: 30px;
@@ -99,5 +102,73 @@ body {
 	font-family: 'Actor', sans-serif;
 	color: white;
 	padding-top: 50px;
-	padding-left: 10px;
+	padding-left: 15px;
+	padding-right: 200px;
+}
+.ikone ul {
+	display: flex;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.ikone ul li{
+	list-style: none;
+}
+.ikone ul li a{
+	width: 80px;
+	height: 80px;
+	background: #fff;
+	text-align: center;
+	line-height: 80px;
+	font-size: 35px;
+	margin: 0 10px;
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	border: 3px solid #fff;
+	z-index: 1;
+}
+.ikone ul li a .fab {
+	position: relative;
+	color: #262626;
+	transition: .5s;
+
+}
+.ikone ul li a:hover .fab{
+	color: #fff;
+	transform: rotateY(360deg);
+
+}
+.ikone ul li a:before {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background: #f00;
+	transition: .5s;
+    z-index: 2;
+}
+.ikone ul li a:hover:before{
+	top: 0;
+
+}
+.ikone ul li:nth-child(1) a:before{
+	background: #3b5999;
+
+}
+.ikone ul li:nth-child(2) a:before{
+	background: #131418;
+	
+}
+.ikone ul li:nth-child(3) a:before{
+	background: #e4405f;
+	
+}
+.ikone ul li:nth-child(4) a:before{
+	background: #55acee;
+	
 }
