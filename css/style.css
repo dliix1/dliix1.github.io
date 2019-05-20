@@ -138,6 +138,7 @@ body {
 	position: relative;
 	color: #262626;
 	transition: .5s;
+	z-index: 3;
 
 }
 .ikone ul li a:hover .fab{
