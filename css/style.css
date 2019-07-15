@@ -2,6 +2,15 @@ body {
 	margin: auto;
 	background: #efe;
 }
+.background {
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/zux.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
 .nav_bar{
 	margin: auto;
 	border-bottom: 2px solid #000000;
@@ -12,7 +21,6 @@ body {
 .nav_bar ul{
 	padding: 0;
 	list-style: none;
-
 }
 .nav_bar ul li{
 	font-family: 'Julius Sans One', sans-serif;
@@ -36,9 +44,8 @@ body {
 	display: inline-block;
 	text-align: center;
 	transition: 400ms;
-
 }
-.nav_bar ul li a: hover {
+.nav_bar ul li a:hover {
 	text-decoration: none;
 	color: #000000;
 	background: #96e0e9;
@@ -49,7 +56,7 @@ body {
 	color: #000000;
 	border-bottom: 1px solid #ffffff;
 }
-.nav_bar ul li a#onlink: hover{
+.nav_bar ul li a#onlink:hover{
 	background: #ffffff;
 	color: #000000;
 }
@@ -59,7 +66,6 @@ body {
 	font-family: 'Courgette', cursive;
 	color: white;
 	padding-left: 10px;
-	
 }
 .imeiPrezime {
 	font-size: 45px;
@@ -139,12 +145,10 @@ body {
 	color: #262626;
 	transition: .5s;
 	z-index: 3;
-
 }
 .ikone ul li a:hover .fab{
 	color: #fff;
 	transform: rotateY(360deg);
-
 }
 .ikone ul li a:before {
 	content: '';
@@ -159,21 +163,16 @@ body {
 }
 .ikone ul li a:hover:before{
 	top: 0;
-
 }
 .ikone ul li:nth-child(1) a:before{
 	background: #3b5999;
-
 }
 .ikone ul li:nth-child(2) a:before{
-	background: #131418;
-	
+	background: #131418;	
 }
 .ikone ul li:nth-child(3) a:before{
 	background: #e4405f;
-	
 }
 .ikone ul li:nth-child(4) a:before{
 	background: #55acee;
-	
 }
